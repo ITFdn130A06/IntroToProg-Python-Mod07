@@ -1,12 +1,15 @@
 # IntroToProg-Python-Mod07
+
 Name: Vikram Tirumalai
+
 Date: 11/30/2022
+
 Course: IT Fdn 110
 
 
 Assignment 7 - Pickling and Errors
 
-URLs that I feel are good for explaining pickling:
+**URLs that I feel are good for explaining pickling**:
 
 [Geeks for Geeks](https://www.geeksforgeeks.org/understanding-python-pickling-example/)
 
@@ -32,21 +35,27 @@ I utilized pickling to read data from a binary file (old predictions) and to als
 **Body**:
 I found great joy in coming up with custom errors. I thought this was a really innovative way to learn how to think like a programmer. Making your code user-friendly and also user-proof is a valuable saying I took from a reading I did on this topic. One error handling concept I implemented is shown below in *Figure 1.1*: 
 
+![image](https://user-images.githubusercontent.com/111481928/205203586-c3bcd3be-ed2d-4762-b6b0-b2e41729a439.png)
 				*Figure 1.1: Custom Error*
-	This error was related to the input_menu_choice function, where a user is expected to enter the number on the menu that corresponds to the action they want to perform. I made this part of the function so that users had to enter a number. I also made sure throughout my code to provide detailed error handling by using the code shown in Figure 1.2:
+				
+This error was related to the input_menu_choice function, where a user is expected to enter the number on the menu that corresponds to the action they want to perform. I made this part of the function so that users had to enter a number. I also made sure throughout my code to provide detailed error handling by using the code shown in Figure 1.2:
 
-				Figure 1.2: common appendage to my try/except statements
-	Another example of error handling that I implemented was found in the input of player information. I made my data so that goals could be entered in float form (half a goal counting as an assist, so decimals were necessary). I also made sure that all goals scored values were positive and player’s names could only have alphabet characters. Figure 1.3 illustrates these specific error handling concepts.
+![image](https://user-images.githubusercontent.com/111481928/205203821-540fb81e-af3d-412d-bd39-64f4dc39c155.png)
+		*Figure 1.2: common appendage to my try/except statements*
 
-				Figure 1.3: Specific error handling in my code
+Another example of error handling that I implemented was found in the input of player information. I made my data so that goals could be entered in float form (half a goal counting as an assist, so decimals were necessary). I also made sure that all goals scored values were positive and player’s names could only have alphabet characters. Figure 1.3 illustrates these specific error handling concepts.
 
-This was my final output: 
+![image](https://user-images.githubusercontent.com/111481928/205203998-70deb68f-2bf0-4e9c-b6e9-b9ce5d4d572b.png)
+		*Figure 1.3: Specific error handling in my code*
 
+**This was my final output**: 
+![image](https://user-images.githubusercontent.com/111481928/205204134-b3279c5a-2a44-4b11-93f3-fb9ef8fa900f.png)
 
-Conclusion and Summary:
+**Conclusion and Summary**:
 	This assignment was extremely enjoyable for me and served as a nice catch-up to material I didn’t previously understand. I look forward to pursuing the next assignment and also learning more about error handling in Python. 
 
 
 Citations:
-https://www.tutorialspoint.com/python-pickling - links to an external site
-https://www.w3schools.com/python/gloss_python_error_handling.asp - links to an external site
+[Pickling Citation](https://www.tutorialspoint.com/python-pickling) - links to an external site
+
+[Error Handling](https://www.w3schools.com/python/gloss_python_error_handling.asp) - links to an external site
